@@ -4,14 +4,12 @@ define ( "USER_NAME", "postgres" );
 define ( "USER_PASSWORD", "dltjrals0102" );
 include 'DataOutPut.php';
 include 'TodayOutPut.php';
-
 ?>
 <!DOCTYPE HTML>
 <html lang="jp">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 </head>
-
 <body>
 <?php
 
@@ -73,7 +71,7 @@ for ($i = 0; $i < $maxrows; $i++) {
 			$row[2]= "提案済";
 			break;
 		case 3:
-			$row[2]= "面談前";
+			$row[2]= "面談前asdasdsada";
 			break;
 		case 4:
 			$row[2]= "結果待ち";
