@@ -23,7 +23,7 @@ include 'TodayOutPut.php';
 			$rs = pg_query ( $database, QUERY_STRING );
 			$rs2 = pg_query($database , QUERY_STRING4);
 			if (!$rs) {
-				echo ("SQL文を実行できません(" . QUERY_STRING . ")");
+				echo ("Ssadasd文を実行できません(" . QUERY_STRING . ")");
 			} else {
 				 $maxrows = pg_num_rows($rs);
 		// -------------------------------------------------------------------------
